@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:#CEAC8F;
+}
+
+.navbar{
+    position: relative;
+    
+    flex-direction: column;
+    height: 70px;
+    margin: auto;
+
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    
+    left: 650px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+ul{
+    text-align: center;
+}
+
+nav h4{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo{
+    
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+#interet{
+    top: calc(100px + 4vh);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.choix{
+    margin-top: 50px;
+}

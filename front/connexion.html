@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="footer">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/connexion.css">
+    <title>Connexion-Le Poney Fringant</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <a href="home.html" class="logo">Le Poney Fringant</a>
+            
+        </div>
+        <!--On crée la navbar pour afficher les autres pages disponible-->
+        <ul class="nav" >
+            <li>
+                <a href="profil.html">Profil</a>
+                <a href="connexion.html">Connexion</a>
+                <a href="inscription.html">Crée un compte</a>
+
+            </li>
+        </ul>
+    </nav>
+        <!--On crée un formulaire pour ce connectez au site-->
+    <form class="from"  method="POST" action="http://localhost:84/login.php">
+        <h1>Connexion</h1>
+        <input type="text"  name="Pseudo" placeholder="Pseudo" class="container">
+        <h2>Email</h2>
+        <input type="email"  name="Email" placeholder="Email" class="container">
+        <h2>Mot de passe</h2>
+        <input type="password"  name="Mot de passe" placeholder="Mot de passe" class="container">
+
+        <button type="submit" class="btn">Connexion</button>
+    </form>
+</body>
+
+<footer>
+    
+</footer>
+</html>

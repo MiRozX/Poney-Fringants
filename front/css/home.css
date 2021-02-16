@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:#CEAC8F;
+}
+
+.navbar{
+    position: relative;
+    
+    flex-direction: column;
+    height: 70px;
+    margin: auto;
+
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    
+    left: 650px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+ul{
+    text-align: center;
+}
+
+nav h4{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo{
+    
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+#h1Mid{
+    text-align: center;
+}
+
+.poney{
+    display: flex;
+    margin: auto;
+    width: 330px;
+    height: 350px;
+    left: 520px;
+    top: 80px;
+}
+
+
+
+.titre1{
+display: flex;
+text-align: center;
+}
+
+.text1{
+   display: flex;
+   margin: auto;
+    width: 330px;
+    height: 30px;
+    right: 450px;
+    top: 160px;
+
+}
+
+
+.poney{
+    height: 70%;
+    margin: auto;
+    top: 25%;
+    left: 55%;
+    transition: transform 0.5s;
+}
+/* petite animation pour bouger l'image du poney */
+.poney:hover{
+    transform: translate(-10px);
+}
